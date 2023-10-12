@@ -21,7 +21,7 @@
     <item>
      <layout class="QGridLayout" name="gridLayout">
       <item row="5" column="1">
-       <widget class="QPushButton" name="pushButton_11">
+       <widget class="QPushButton" name="btn_number0">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -32,7 +32,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -42,7 +41,7 @@
        </widget>
       </item>
       <item row="3" column="1">
-       <widget class="QPushButton" name="pushButton_5">
+       <widget class="QPushButton" name="btn_number5">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -53,7 +52,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -63,7 +61,7 @@
        </widget>
       </item>
       <item row="4" column="0">
-       <widget class="QPushButton" name="pushButton_7">
+       <widget class="QPushButton" name="btn_number1">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -74,7 +72,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -84,7 +81,7 @@
        </widget>
       </item>
       <item row="2" column="3">
-       <widget class="QPushButton" name="pushButton_13">
+       <widget class="QPushButton" name="btn_multiplication">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -95,7 +92,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -108,7 +104,7 @@
        </widget>
       </item>
       <item row="5" column="3">
-       <widget class="QPushButton" name="pushButton_16">
+       <widget class="QPushButton" name="btn_equal">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -119,12 +115,23 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(47, 175, 255);</string>
+         <string notr="true">QPushButton {
+	background-color:rgb(85, 170, 255);
+	color:rgb(85, 85, 255);
+}
+
+QPushButton:hover {
+	background-color:rgb(50, 110, 255);
+	color:rgb(255, 255, 255);
+}
+
+QPushButton:pressed {
+	background-color:rgb(85, 170, 255);
+}</string>
         </property>
         <property name="text">
          <string>=</string>
@@ -132,7 +139,7 @@
        </widget>
       </item>
       <item row="4" column="3">
-       <widget class="QPushButton" name="pushButton_15">
+       <widget class="QPushButton" name="btn_plus">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -143,7 +150,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -156,7 +162,7 @@
        </widget>
       </item>
       <item row="5" column="0">
-       <widget class="QPushButton" name="pushButton_10">
+       <widget class="QPushButton" name="btn_neg_pos">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -167,7 +173,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -177,7 +182,7 @@
        </widget>
       </item>
       <item row="0" column="0" colspan="4">
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="lb_output">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -188,7 +193,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>42</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -207,7 +211,7 @@
        </widget>
       </item>
       <item row="2" column="2">
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="btn_number9">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -218,7 +222,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -228,7 +231,7 @@
        </widget>
       </item>
       <item row="3" column="3">
-       <widget class="QPushButton" name="pushButton_14">
+       <widget class="QPushButton" name="btn_minus">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -239,7 +242,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -252,7 +254,7 @@
        </widget>
       </item>
       <item row="2" column="0">
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="btn_number7">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -263,7 +265,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -273,7 +274,7 @@
        </widget>
       </item>
       <item row="2" column="1">
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="btn_number8">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -284,7 +285,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -294,7 +294,7 @@
        </widget>
       </item>
       <item row="3" column="0">
-       <widget class="QPushButton" name="pushButton_4">
+       <widget class="QPushButton" name="btn_number4">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -305,7 +305,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -315,7 +314,7 @@
        </widget>
       </item>
       <item row="3" column="2">
-       <widget class="QPushButton" name="pushButton_6">
+       <widget class="QPushButton" name="btn_number6">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -326,7 +325,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -336,7 +334,7 @@
        </widget>
       </item>
       <item row="4" column="1">
-       <widget class="QPushButton" name="pushButton_8">
+       <widget class="QPushButton" name="btn_number2">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -347,7 +345,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -357,7 +354,7 @@
        </widget>
       </item>
       <item row="4" column="2">
-       <widget class="QPushButton" name="pushButton_9">
+       <widget class="QPushButton" name="btn_number3">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -368,7 +365,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -378,7 +374,7 @@
        </widget>
       </item>
       <item row="5" column="2">
-       <widget class="QPushButton" name="pushButton_12">
+       <widget class="QPushButton" name="btn_point">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -389,7 +385,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -399,7 +394,7 @@
        </widget>
       </item>
       <item row="1" column="0">
-       <widget class="QPushButton" name="pushButton_17">
+       <widget class="QPushButton" name="btn_modular">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -410,7 +405,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -420,7 +414,7 @@
        </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QPushButton" name="pushButton_18">
+       <widget class="QPushButton" name="btn_cancel">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -431,7 +425,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -441,7 +434,7 @@
        </widget>
       </item>
       <item row="1" column="2">
-       <widget class="QPushButton" name="pushButton_19">
+       <widget class="QPushButton" name="btn_clear">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -452,7 +445,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -462,7 +454,7 @@
        </widget>
       </item>
       <item row="1" column="3">
-       <widget class="QPushButton" name="pushButton_20">
+       <widget class="QPushButton" name="btn_divide">
         <property name="sizePolicy">
          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -473,7 +465,6 @@
          <font>
           <family>Calibri</family>
           <pointsize>20</pointsize>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -495,7 +486,7 @@
      <x>0</x>
      <y>0</y>
      <width>480</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>
